@@ -1,0 +1,9 @@
+package com.company.message;
+
+public class Conteolling {
+	public static void main (String[] args) {
+		System.out.println("jeu there. im mr meeseesks");
+	}
+	
+	
+}

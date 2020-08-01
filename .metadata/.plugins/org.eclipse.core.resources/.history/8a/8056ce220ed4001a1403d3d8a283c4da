@@ -1,0 +1,12 @@
+package com.company.arrays;
+
+public class ArrayIntro {
+
+	public static void main(String[] args) {
+		//arrays are objects, a concept we will learn next week. it basically means
+		//	it has its own states and behaviors. data in sequential order.
+		int[] arr1 = new int[4];
+		arr1[0]=2;
+		System.out.println(arr1[0]);
+	}
+}

@@ -1,0 +1,52 @@
+package com.company.message;
+
+public class Controlling {
+	public static void main (String[] args) {
+//		System.out.println("hey there. im mr meeseesks");
+//		int a = 1;
+//		System.out.println(a++);
+		
+		
+//		// my dog ran away
+//		boolean dogGone = true;
+//		while(dogGone) {
+//			System.out.println("the dog is gone");
+//		}
+		
+		
+		// control flow
+		
+		// while logging in to the system, timmy is 12 but the minimum age 
+		//	requirement is 18. How can we verify his age and not let him log in?
+		int timmyAge =12;
+		int minAge = 18;
+		//	we can use an if statement to check his age
+		if(timmyAge<=minAge) {
+			System.out.println("timmy is too young");
+		}
+		
+		// jennifer is going swimming, there are 3 levels to the pool, 3,4,5 feet.
+		//  she cannot swim in the five foot range, needs help in the 4 foot range,
+		//  but is fine in the 3 foot range. how can we determine if she is able to swim.
+		
+		int poolRange = 5;
+		int minrange = 3;
+				if(poolRange>=minrange) {
+					System.out.println("jennifer cannot swim");
+				}
+		
+		int depth = 4;
+		if(depth == 3) {
+			System.out.println("jennifer can swim");
+		} else {
+			System.out.println("jennifer cannot swim alone");
+		}
+		
+	}
+
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,27 @@
+package com.company.message;
+
+public class Conteolling {
+	public static void main (String[] args) {
+		System.out.println("jeu there. im mr meeseesks");
+		int a = 1;
+		System.out.println(a++);
+		
+		
+		
+		
+		
+		
+		
+		// my dog ran away
+		boolean dogGone = true;
+		while(dogGone) {
+			System.out.println("the dog is gone");
+		}
+	}
+	
+	
+	
+	
+	
+	
+}
