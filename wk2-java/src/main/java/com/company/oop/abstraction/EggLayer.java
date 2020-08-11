@@ -7,10 +7,14 @@ package com.company.oop.abstraction;
  * interfaces have implicit modifiers:
  * 		methods are public and abstract
  * 		fields are public static and final
+ * 
+ * This is a functional interface because it has only one method.
  */
+@FunctionalInterface
 public interface EggLayer {
 	
 	/*public static final*/ int MAX_EGGS = 5;
 
 	/*public abstract*/ int layEggs(); // abstract method
+	
 }

@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.company</groupId>
+  <artifactId>Week-3</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</project>
+
+<!-- This is the pom.xml. This is your configuration file for Maven.
+		Maven is a project management tool that will handle your
+		dependencies, your compilation, testing, packaging, etc.
+		
+		The project is divided up into several folders. src/main is where the
+		files belong for the main program. java folder is where the java files
+		go and resources is where the resources for the main program go.
+		
+		inside src/test is where you put all the java files associated with testing
+		and where you will put the resources for your tests. The src folder is not
+		important right now, but will be when we move into servlets and war projects.
+		
+		the target folder is where all the compiled classes, the reports, the packaged
+		jar file, etc. will go when maven finishes with them.
+		
+		Maven has a build lifecycle
+			default (build)			clean		site
+				used for building	used for	used generating
+				the program			getting		a documentation site for your project
+									rid of everything
+									in the 
+									target folder
+									
+									
+		default phases
+			verify
+			compile
+			test-compile
+			test
+			package
+			install
+			deploy
+		each phase has individual goals where the phase is essentially broken up
+			into granular steps.
+			
+		How to use maven
+			mvn package			package the application
+			mvn test			run the tests
+			mvn clean package	delete the target folder and run the package phase
+		
+		
+		 -->

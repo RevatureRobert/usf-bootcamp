@@ -1,4 +1,4 @@
-package com.company.oop;
+package com.company.oop.polymorphism;
 
 public class Polymorphism {
 
@@ -20,24 +20,4 @@ public class Polymorphism {
 	}
 }
 
-
-
-
-
-
-
-
-class Painter {
-	void paint() {
-		System.out.println("painting a wall");
-	}
-}
-
-
-
-class BadPainter extends Painter{
-	void paint() {
-		System.out.println("painting a wall badly");
-	}
-}
 
