@@ -3,6 +3,10 @@
   <groupId>com.company</groupId>
   <artifactId>Week-3</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  	<maven.compiler.target>1.8</maven.compiler.target>
+  	<maven.compiler.source>1.8</maven.compiler.source>
+  </properties>
 </project>
 
 <!-- This is the pom.xml. This is your configuration file for Maven.

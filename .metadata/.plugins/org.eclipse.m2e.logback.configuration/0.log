@@ -17,3 +17,55 @@
 2020-08-04 18:27:51,652 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2020-08-08 09:54:42,178 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2020-08-11 18:25:52,219 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-08-11 19:32:51,238 [Worker-34: Creating project "Week-3"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.company:Week-3:0.0.1-SNAPSHOT @ C:\Users\Revature\Desktop\usf bootcamp\Week-3\pom.xml.
+2020-08-11 19:32:51,927 [Worker-34: Creating project "Week-3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Week-3/src/main/java
+2020-08-11 19:32:51,932 [Worker-34: Creating project "Week-3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Week-3/src/main/resources
+2020-08-11 19:32:51,934 [Worker-34: Creating project "Week-3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Week-3/src/test/java
+2020-08-11 19:32:51,935 [Worker-34: Creating project "Week-3"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Week-3/src/test/resources
+2020-08-11 19:32:52,782 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:32:52,804 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 19:32:52,812 [Worker-47: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:32:52,818 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 19:49:53,354 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.company:Week-3:0.0.1-SNAPSHOT @ C:\Users\Revature\Desktop\usf bootcamp\Week-3\pom.xml.
+2020-08-11 19:49:54,607 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:49:54,635 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 19:49:54,646 [Worker-55: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:49:54,651 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 19:51:43,219 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:51:43,228 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 19:51:43,233 [Worker-56: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 19:51:43,236 [Worker-56: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:06:11,040 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:06:11,046 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:06:11,050 [Worker-64: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:06:11,053 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:06:37,194 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:06:37,198 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:06:37,202 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:06:37,205 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:07:52,441 [Worker-65: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.company:Week-3:0.0.1-SNAPSHOT @ C:\Users\Revature\Desktop\usf bootcamp\Week-3\pom.xml.
+2020-08-11 20:07:52,905 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:07:52,914 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:07:52,922 [Worker-65: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:07:52,926 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:09:31,117 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-08-11 20:09:32,101 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.company:Week-3:0.0.1-SNAPSHOT @ C:\Users\Revature\Desktop\usf bootcamp\Week-3\pom.xml.
+2020-08-11 20:09:32,416 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Week-3/src/main/java
+2020-08-11 20:09:32,417 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Week-3/src/main/resources
+2020-08-11 20:09:32,419 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Week-3/src/test/java
+2020-08-11 20:09:32,421 [Worker-64: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Week-3/src/test/resources
+2020-08-11 20:09:32,739 [Worker-64: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2020-08-11 20:09:32,996 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:09:33,004 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:09:33,009 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:09:33,012 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:14:08,189 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:14:08,200 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:14:08,204 [Worker-68: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:14:08,207 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:16:38,131 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:16:38,134 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:16:38,137 [Worker-63: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:16:38,140 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-11 20:22:08,497 [Worker-75: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-08-11 20:22:08,503 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
