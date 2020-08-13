@@ -5,6 +5,7 @@ import java.util.Stack;
 public class StackExample extends Stack<Integer>{
 
 	int[] stack;
+	int lastIndex = -1;
 	
 	StackExample(int size){
 		stack = new int[size];
@@ -17,18 +18,22 @@ public class StackExample extends Stack<Integer>{
 	// get the last element in the array
 	@Override
 	public synchronized Integer pop() {
-		int last = 0;
-//		for(int i = stack.length-1; i>=0; i--) {
-//			last = stack[i];
-//			stack[i]=0;
-//		}
-		return last;
+		if(lastIndex == -1) {
+			return 0;
+		} else {
+			return stack[lastIndex--];
+		}
 	}
 	
 	// add an element to the array
 	@Override
 	public synchronized boolean add(Integer e) {
-		return false;
+		if (lastIndex == stack.length-1) {
+			return false;
+		} else {
+			stack[++lastIndex]=e;
+			return true;
+		}
 	}
 	
 	
@@ -38,10 +43,21 @@ public class StackExample extends Stack<Integer>{
 		StackExample se = new StackExample();
 		int place = 0;
 		for(int i = 10; i<20; i++) {
-			se.stack[place]=i;
-			place++;
+			se.add(i);
 		}
 		
 		System.out.println(se.pop());
+		System.out.println(se.pop());
+		System.out.println(se.pop());
+		System.out.println(se.pop());
+		System.out.println(se.pop());
+		se.add(44);
+		System.out.println(se.pop());
+		System.out.println(se.pop());
+		
+		
+		
+//		String s = method("hello", "l");
+//		System.out.println(s); // -> llohe
 	}
 }
