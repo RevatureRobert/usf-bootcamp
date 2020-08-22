@@ -3,4 +3,11 @@
 <fullyQualifiedTypeName name="com.company.firstclass.VariableScopes"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="com.company.methods.MethodDiscovery"/>
+<fullyQualifiedTypeName name="com.company.exceptions.TransferException"/>
+<fullyQualifiedTypeName name="com.company.generics.GenericExample"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.BeforeClass"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="org.junit.AfterClass"/>
 </qualifiedTypeNameHistroy>
