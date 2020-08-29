@@ -142,3 +142,8 @@ select color from A union all select shape from B; --leaves duplicates
 select color from A except select shape from B; --A - B = whats left in A
 select shape from B except select color from A; -- B - A = whats left in B
 select color from A intersect select shape from B; -- intersect leaves whatever is in both
+
+
+
+
+select * from person full outer join address on person.address = address.id where person.ssn = 3;
