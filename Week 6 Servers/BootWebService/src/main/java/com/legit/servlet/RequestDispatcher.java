@@ -9,7 +9,7 @@ public class RequestDispatcher {
 	
 	public static void dataRetriever(HttpServletRequest req, HttpServletResponse res) {
 		switch(req.getRequestURI()) {
-		case "/user.json":
+		case "/BootWebService/user.json":
 			new UserController().findAllUsers(req, res);
 		}
 	}
