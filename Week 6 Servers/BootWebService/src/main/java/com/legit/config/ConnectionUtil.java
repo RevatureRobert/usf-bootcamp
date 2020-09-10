@@ -7,13 +7,13 @@ import java.sql.SQLException;
 public class ConnectionUtil {
 
 	private String url = System.getenv("app_user_url");
-	private String username = System.getenv("app_user_name");
+	private String username = System.getenv("app_username");
 	private String password = System.getenv("app_user_password");
 	private static ConnectionUtil instance;
 	
 	private ConnectionUtil() {}
 	
-	public ConnectionUtil getInstance() {
+	public static ConnectionUtil getInstance() {
 		if (instance == null) {
 			instance = new ConnectionUtil();
 		}
