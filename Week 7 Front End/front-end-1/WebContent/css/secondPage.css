@@ -1,0 +1,103 @@
+/*
+	this is css page
+		css stands for Cascading Style Sheet
+	there are three different ways to style html
+		local styling
+			using the style attributes on elements
+		internal styling
+			adding a stylesheet to the head of the html
+		external styling
+			using a completely different file for styling
+	css syntax
+		selector {
+			property: value;
+		}
+
+	different types of selectors
+		tag selector => no prefix, just tag name
+		id selector => '.' prefix, then class name
+		class selector => '#' prefix, then id name
+		combinators
+		pseudo-selector
+
+	different ways to add color:
+		color name (red)
+		rgb color [rgb(150,255,0)]
+		hexidecimal (#000 through #fff)
+
+*/
+/* div {
+	background-color: 'brown';
+} */
+
+#header {
+	height: 100px;
+	width: 100%;
+	background-color: #919191;	
+}
+#body {
+	height: 600px;
+	width: 100%;
+	background-color: rgb(50,100,150);
+}
+
+#footer {
+	height: 50px;
+	width: 100%;
+	background-color: #474747
+}
+#bouncing{
+	height:100px;
+	width:100px;
+	background-color: red;
+	animation-name:ball;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	position: relative;
+	animation-timing-function:ease-in-out
+}
+@keyframes ball{
+	0%{
+		border-radius: 0% 0% 0% 0%;
+		left: 0px;
+		top: 0px;
+	}
+	20%{
+		border-radius: 50% 0% 0% 0%;
+		left: 1000px;
+		top: 0px;
+		backgroud-color: blue;
+	}
+	40%{
+		border-radius: 50% 50% 0% 0%;
+		left: 1000px;
+		top: 500px;
+		background-color:green;
+	}
+	60%{
+		border-radius: 50% 50% 50% 0%;
+		left: 0px;
+		top: 500px;
+		background-color: yellow;
+	}
+	80%{
+		border-radius: 50%;
+		left:0px;
+		top:0px;
+		background-color:purple;
+	}
+	100%{
+		border-radius: 0%;
+		left:0px;
+		top: 0px;
+		background-color:red;
+	}
+}
+
+
+
+
+
+
+
+

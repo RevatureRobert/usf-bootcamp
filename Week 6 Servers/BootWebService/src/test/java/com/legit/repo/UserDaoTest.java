@@ -1,5 +1,6 @@
 package com.legit.repo;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -35,5 +36,11 @@ public class UserDaoTest {
 		assertNotNull(users);
 		assertNotEquals(0, users.size());
 		System.out.println(users);
+	}
+	
+	@Test
+	public void findByNameTest() {
+		User u = ud.findByUsername("boot");
+		assertEquals("pass", u.getPassword());
 	}
 }

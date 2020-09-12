@@ -23,10 +23,7 @@
 <title>this is our first html page, isnt it cool!?!?!?</title>
 </head>
 <body>
-
 <a href="./secondPage.html">go to second page</a>
-
-
 	<!-- heading tags -->
 	<h1>this is the biggest heading</h1>
 	<h2>second heading</h2>
@@ -153,6 +150,12 @@ Duis volutpat volutpat enim sed hendrerit. Morbi risus enim, tempor sed elit sed
   	<input type="date"><br>
   	<input type="file"><br>
   	<input type="reset" value="reset">
+  	<input type="submit" value="login">
+  </form>
+  
+  <form action="http://localhost:8080/BootWebService/login.json" method="POST">
+  	<input name="username" type="text" placeholder="username"><br>
+  	<input name="password" type="password" placeholder="password"><br>
   	<input type="submit" value="login">
   </form>
   

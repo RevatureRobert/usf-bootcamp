@@ -17,4 +17,9 @@ public class DataServlet extends HttpServlet{
 		System.out.println(req.getRequestURI());
 		RequestDispatcher.dataRetriever(req, resp);
 	}
+	
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		RequestDispatcher.dataRetriever(req, resp);
+	}
 }
