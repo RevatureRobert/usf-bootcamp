@@ -3,3 +3,6 @@ create table boot_user (
 	username text unique not null,
 	password text not null
 );
+
+insert into boot_user (username, password) values ('boot','pass');
+select * from boot_user;
