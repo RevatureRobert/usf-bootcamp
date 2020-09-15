@@ -18,8 +18,11 @@ public class DataServlet extends HttpServlet{
 		RequestDispatcher.dataRetriever(req, resp);
 	}
 	
+	
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		RequestDispatcher.dataRetriever(req, resp);
 	}
+	
+	
 }
