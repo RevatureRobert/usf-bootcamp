@@ -6,10 +6,10 @@
   </welcome-file-list>
   <error-page>
   	<error-code>404</error-code>
-  	<location>/html/404-page.html</location>
+  	<location>/anything.app</location>
   </error-page>
   <error-page>
   	<exception-type>java.lang.NullPointerException</exception-type>
-  	<location>/html/404-page.html</location>
+  	<location>/anything.app</location>
   </error-page>
 </web-app>
