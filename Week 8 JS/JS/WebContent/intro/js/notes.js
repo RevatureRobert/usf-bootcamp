@@ -25,7 +25,7 @@
 //  we can change at any time. it also has behaviors like forEach, filter
 //  and others that need a callback function for its operation.
 
-//////////es6
+////es6
 //stands for EcmaScript version 6
 //EcmaScript is the standard for scripting languages and version 6 was a 
 //  major update for js. Since then, they launch a minor update every year

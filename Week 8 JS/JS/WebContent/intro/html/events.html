@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>events</title>
+
+<script>
+	let count = 0;
+	function btnClick(eve) {
+		console.log(`the button has been clicked ${++count}`);
+		console.log(eve)
+	}
+</script>
+
+
+</head>
+<body>
+	<button onclick="btnClick(event)">this is a button</button>
+</body>
+</html>
