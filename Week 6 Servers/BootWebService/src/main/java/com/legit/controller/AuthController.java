@@ -22,9 +22,7 @@ public class AuthController {
 		String password = req.getParameter("password");
 		boolean b = as.login(username, password);
 		if(b) {
-			HttpSession sess= req.getSession();
-			sess.setAttribute("username", username);
-			sess.setAttribute("password", password);
+			new SessionController().CreateSession(req);
 			return "dashboard.app";
 		} else {
 			return "error.app";
