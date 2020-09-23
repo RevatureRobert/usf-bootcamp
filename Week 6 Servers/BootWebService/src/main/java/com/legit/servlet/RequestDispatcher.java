@@ -14,8 +14,6 @@ public class RequestDispatcher {
 		case "/BootWebService/user.json":
 			new UserController().findAllUsers(req, res);
 			break;
-		case "/BootWebService/login.json":
-			new AuthController().login(req, res);
 		}
 	}
 
@@ -25,6 +23,14 @@ public class RequestDispatcher {
 			return "html/index.html";
 		case "/BootWebService/session.app":
 			return "html/session.html";
+		case "/BootWebService/landing.app":
+			return "html/landing.html";
+		case "/BootWebService/login.app":
+			return new AuthController().login(req);
+		case "/BootWebService/error.app":
+			return "html/error.html";
+		case "/BootWebService/dashboard.app":
+			return "html/dashboard.html";
 		default:
 			return "html/404-page.html";
 		}
