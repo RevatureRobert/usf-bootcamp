@@ -19,6 +19,8 @@ public class RequestDispatcher {
 	}
 
 	public static String retrievePage(HttpServletRequest req) {
+		System.out.println(req.getRequestURI());
+		
 		switch (req.getRequestURI()) {
 		case "/BootWebService/home.app":
 			return "html/index.html";
@@ -32,9 +34,10 @@ public class RequestDispatcher {
 			return "html/error.html";
 		case "/BootWebService/dashboard.app":
 			return new SessionController().authorizePageEntry(req, "html/dashboard.html");
-		case "/BootWebService/logout.app":
+		case "/BootWebService/nogo.app":
+			System.out.println("logout.app");
 			new SessionController().logout(req);
-			return "landing.app";
+			return "html/landing.html";
 		default:
 			return "html/404-page.html";
 		}

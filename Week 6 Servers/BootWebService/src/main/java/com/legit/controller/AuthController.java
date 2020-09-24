@@ -23,9 +23,9 @@ public class AuthController {
 		boolean b = as.login(username, password);
 		if(b) {
 			new SessionController().CreateSession(req);
-			return "dashboard.app";
+			return "html/dashboard.html";
 		} else {
-			return "error.app";
+			return "html/error.html";
 		}
 	}
 }
