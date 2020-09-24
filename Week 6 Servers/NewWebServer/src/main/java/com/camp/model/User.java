@@ -1,5 +1,8 @@
 package com.camp.model;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class User {
 
 	private int id;
@@ -30,9 +33,17 @@ public class User {
 		this.password = password;
 	}
 
+	
+
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", password=" + password + "]";
+		ObjectMapper om = new ObjectMapper();
+		try {
+			return om.writeValueAsString(this);
+		} catch (JsonProcessingException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	public User(int id, String username, String password) {

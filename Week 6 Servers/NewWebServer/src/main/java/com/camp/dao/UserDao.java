@@ -32,8 +32,19 @@ public class UserDao implements DaoContract<User, Integer>{
 	}
 
 	public User insert(User t) {
-		// TODO Auto-generated method stub
-		return null;
+		User u = null;
+		try(Connection conn = ConnectionUtil.getInstance().getConnection()){
+			String sql = "insert into boot_user (username, password) values (?,?)";
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, t.getUsername());
+			ps.setString(2, t.getPassword());
+			ps.execute();
+			u = this.findByUsername(t.getUsername());
+			ps.close();
+			} catch(SQLException e) {
+				e.printStackTrace();
+		}
+		return u;
 	}
 	
 	public User findByUsername(String username) {

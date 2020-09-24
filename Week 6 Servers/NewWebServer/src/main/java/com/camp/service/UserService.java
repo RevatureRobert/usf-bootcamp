@@ -19,5 +19,7 @@ public class UserService {
 		return password.equals(u.getPassword());
 	}
 	
-	
+	public User insert(User u) {
+		return ud.insert(u);
+	}
 }
