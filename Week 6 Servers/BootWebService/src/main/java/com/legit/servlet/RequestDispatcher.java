@@ -8,6 +8,7 @@ import com.legit.controller.SessionController;
 import com.legit.controller.UserController;
 
 public class RequestDispatcher {
+	public int myNum=(int)(long)10;
 
 	public static void dataRetriever(HttpServletRequest req, HttpServletResponse res) {
 		System.out.println(req.getRequestURI());
