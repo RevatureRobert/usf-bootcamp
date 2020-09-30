@@ -1,5 +1,5 @@
 content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.company.firstclass.VariableScopes"><rhs name\="com.company.firstclass.VariableScopes"/></lhs><lhs name\="com.company.generics.GenericExample"><rhs name\="com.company.generics.GenericExample"/></lhs><lhs name\="com.company.controlflow.BinarySearch"><rhs name\="com.company.controlflow.BinarySearch"/></lhs></history>
-content_assist_number_of_computers=12
+content_assist_number_of_computers=20
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
 eclipse.preferences.version=1
